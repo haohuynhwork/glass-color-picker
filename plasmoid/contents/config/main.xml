@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0 http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+  <kcfgfile name=""/>
+  <group name="General">
+    <entry name="history" type="StringList"><default></default></entry>
+    <entry name="historySize" type="Int"><default>12</default></entry>
+    <entry name="format" type="String"><default>hex</default></entry>
+    <entry name="autoCopy" type="Bool"><default>true</default></entry>
+    <entry name="shortcutAction" type="String"><default>pick</default></entry>
+    <entry name="showSeparator" type="Bool"><default>false</default></entry>
+    <entry name="glassStyle" type="Bool"><default>false</default></entry>
+    <entry name="previewCount" type="Int"><default>1</default></entry>
+    <entry name="pickerMode" type="String"><default>custom</default></entry>
+    <entry name="sampling" type="String"><default>freeze</default></entry>
+    <entry name="magnifier" type="Bool"><default>true</default></entry>
+    <entry name="badge" type="Bool"><default>true</default></entry>
+    <entry name="zoom" type="Int"><default>15</default></entry>
+    <entry name="pickerCommand" type="String">
+      <default>$HOME/.local/bin/glass-color-picker</default>
+    </entry>
+  </group>
+</kcfg>

@@ -1,0 +1,21 @@
+# CMake build output (binary, .plasmoid, source tarball, checksums)
+/build/
+build-*/
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+_CPack_Packages/
+
+# Packaged artifacts
+*.plasmoid
+*.tar.gz
+*.sha256
+
+# Editors / tooling
+.vscode/
+.idea/
+.cache/
+compile_commands.json
+*.swp
+*~
+.DS_Store

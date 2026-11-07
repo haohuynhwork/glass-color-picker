@@ -1,0 +1,14 @@
+{
+    "KPlugin": {
+        "Authors": [{ "Name": "Paul", "Email": "paul@syncore.vn" }],
+        "Category": "Utilities",
+        "Description": "Pick colors from the screen with a glassy magnifier",
+        "Icon": "color-picker",
+        "Id": "dev.owen.glasscolorpicker",
+        "License": "GPL-2.0+",
+        "Name": "Glass Color Picker",
+        "Version": "1.0"
+    },
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API-Minimum-Version": "6.0"
+}
